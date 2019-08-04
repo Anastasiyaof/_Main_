@@ -1,0 +1,19 @@
+.circle{
+  
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px red, 150px 0px 10px 10px green, 300px 0px 10px 10px yellow, 450px 0px 10px 10px pink;
+    margin: 40px 0px;
+    clip: unset;
+}
+.square {
+    border: solid 1px;
+    width: 150px;
+    height: 100px;
+   max-height: 100px;
+    box-shadow: 0px 0px 10px 10px red, 200px 0px 10px 10px green, 400px 0px 10px 10px yellow, 600px 0px 10px 10px pink;
+    margin: 40px 0px;
+    clip: unset;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <h1 align="center">Заполните Форму</h1>
+        <p>
+            <input type="text" placeholder="Введите имя" required>
+            <input type="text" placeholder="Введите фамилию">
+        </p>
+     <hr/>
+     Введите пароль<br/>
+            <input type="password"  required> <br/>
+     Повторите пароль<br/>
+         <input type="password" required><br/>
+    
+      <hr/>
+     Ваша страна<br/>
+     <select  required>
+         <option>страна</option>
+         <option>страна2</option>
+          <option>страна3</option>
+          <option>страна4</option>
+      </select><br/>
+      Ваша город<br/>
+     <select size="3" required>
+         <option>Киев</option>
+          <option>Одесса</option>
+          <option>Львов</option>
+           <option>Ровно</option>
+           <option>Харьков</option>
+     </select>
+       <p>
+           <fieldset required>
+               <legend >Что вы любите делать</legend> 
+               <input type="checkbox" name="answer1" value="sleep" checked > Спать <br/>
+               <input type="checkbox" name="answer2" value="eat" > Есть <br/>
+               <input type="checkbox" name="answer3" value="run" > Бегать <br/>
+               <input type="checkbox" name="answer4" value="draw" > Рисовать <br/>
+               <input type="checkbox" name="answer5" value="study" > Учиться <br/>
+               <input type="checkbox" name="answer6" value="drink" >Употреблять много алкоголя <br/>
+
+           </fieldset>
+       </p>
+       <p>
+            <fieldset>
+                <legend >Вам есть 18?</legend> 
+                <input type="radio" name="answer1" value="yes" required> Да <br/>
+                <input type="radio" name="answer1" value="no" required> Нет <br/>
+            </fieldset>
+        </p>
+       <p> Коротко о себе <br/>
+        <textarea name="text" required></textarea>
+       </p>
+       <input type="submit" value="Отправить">
+       <input type="reset"   value="Очистить">
+    </form>
+</body>
+</html>

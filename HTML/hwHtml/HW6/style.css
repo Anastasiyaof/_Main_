@@ -1,0 +1,190 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+a {
+    
+        text-decoration: none;
+        outline: none;
+}
+
+.contanier {
+    background-image: url(./Christmas_tree_icon-icons.com_75188.png);
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.first>div, .second>div, .third >div {
+    /* border: solid 1px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.first, .second, .third {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.first {
+    
+    height: 15%;
+    width: 29%;
+    top: 27%;
+    margin-left: 37%;
+}
+.second {
+    
+    height: 15%;
+    width: 42%;
+    top: 44%;
+    left: 30%;
+}
+.third {
+    
+    height: 20%;
+    width: 59%;
+    top: 60%;
+    left: 27%;
+}
+.yellow1 {
+    align-self: end;
+    /* background-color: yellow; */
+}
+.red1 {
+    align-self: center;
+    margin-top: 10%;
+    /* background-color: red; */
+}
+.blue1 {
+    align-self: flex-end;
+    margin-bottom: 5%;
+    /* background-color: #4f4fd1; */
+}
+.blue2 {
+        align-self: flex-start;
+        margin-left: 6%;
+        /* background-color: #4f4fd1; */
+}   
+.yellow2 {
+        align-self: center;
+        margin-top: 10%;
+        /* background-color: yellow; */
+}
+.red2 {
+    align-self: flex-end;
+    /* background-color: red; */
+}
+.red3 {
+    align-self: flex-start;
+    margin-top: 2%;
+    /* background-color: red; */
+}
+.blue3 {
+    align-self: center;
+    margin-top: 11%;
+    /* background-color: #4f4fd1; */
+}
+.yellow3 {
+    align-self: flex-end;
+    margin-bottom: 5%;
+    /* background-color: yellow; */
+}
+.first div{
+    animation-name: first;
+   opacity: 0 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+.second div{
+    animation-name: second;
+   opacity: 0 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+.third div{
+    animation-name: third;
+   opacity: 0 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+
+@keyframes first {
+    0%{
+        opacity: 0;
+       
+    }
+    50%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+@keyframes second {
+    0%{
+        opacity: 0;
+       
+    }
+    50%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+@keyframes third {
+    0%{
+        opacity: 0;
+       
+    }
+    50%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+#yellow {
+    animation-delay: -0.1s;
+    background-color: yellow;
+    box-shadow: 0px 0px 15px 5px #eef972;
+}
+#red {
+    animation-delay: 0.7s;
+    background-color: red;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 15px 5px #f96363;
+} 
+#blue {
+    animation-delay: 1.4s;
+    background-color:blue;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 15px 5px #9da2f7;
+} 
