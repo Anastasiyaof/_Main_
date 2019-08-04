@@ -1,0 +1,18 @@
+div.prev {
+    display: flex;
+    margin: 20px 10px;
+    justify-content: space-between;
+}
+a.prev {
+    margin: auto;
+    border: outset;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+span.av {
+    display: none;
+}
+.back {
+    order: 2;
+}

@@ -1,0 +1,46 @@
+.wrapper {
+   
+    position: relative;
+    
+}
+.conteyiner {
+    position: relative;
+    min-height: 100%;
+    display: flex;
+}
+main {
+    text-align: center;
+    background-color: bisque;
+    min-height: 100%;
+    width: calc(100% - 270px);
+    /* margin: auto; */
+}
+.main_section {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+   
+}section.section1 {
+    max-width: 45%;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+/*@media screen and (min-width: 1024px) and (max-width: 1024px){*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*}*/

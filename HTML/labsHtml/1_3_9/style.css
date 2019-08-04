@@ -1,0 +1,61 @@
+.Header {
+    display: flex;
+    
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+
+.b, .b1 {
+    background-color: coral;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+.b1 {
+    margin-left: auto;
+}
+.Events {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 10px;
+}
+.Events_colum1 {
+    flex-grow: 1;
+    padding: 15px;
+    background-color: beige;
+    
+}
+.Events_colum {
+    flex: 0 0 200px;
+    padding: 15px;
+    background-color: floralwhite;
+    border: solid 1px beige;
+}
+.Jobs {
+    display: flex;
+   
+    padding: 10px;
+    margin: 15px;
+}
+.Job1 {
+    flex: 0 0 200px;
+    margin-right: 15px;
+    background-color: brown;
+    color: white;
+    padding: 15px;
+}
+.Job {
+    padding: 15px;
+    background-color: burlywood;
+    color: white;
+}
+button {
+    align-self: flex-end;
+    float: right;
+    padding: 15px;
+    background-color: brown;
+    color: white;
+    border: darkred;
+    border-radius: 10%;
+}
